@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Student Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based application designed for managing student data. It allows users to add, edit, and delete student records while providing a seamless user experience with real-time validation, search functionality, pagination, and interactive confirmation popups. The application is built with modern React features and leverages tools like react-toastify for notifications, ensuring smooth interactions for users.
 
-## Available Scripts
+<h3>Key Features</h3>
+<ul>
+  <li><h5>Form Validation:</h5></li>
+  <p>The form inputs are validated to ensure that the name is a string, age is a positive integer, class grade is a string, and the phone number is a valid 10-digit number. All fields are required for successful form submission.</p>
 
-In the project directory, you can run:
 
-### `npm start`
+   <li><h5>Confirmation Popups:</h5></li>
+  <p>Before a student record is deleted, a confirmation popup is displayed to confirm the action. The user can choose to either confirm or cancel the deletion, preventing accidental removals.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   <li><h5>Toast Notifications:</h5></li>
+  <p>Success and error messages are displayed using toast notifications from react-toastify. These messages inform the user about the status of their actions, such as adding, updating, or deleting a student.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   <li><h5>Pagination:</h5></li>
+  <p>The data table supports pagination, displaying a limited number of student records per page. This helps to keep the user interface clean and enhances usability when working with large datasets.</p>
 
-### `npm test`
+  <li><h5>Search Functionality:</h5></li>
+  <p>The search bar allows users to filter student records by name. As the user types in the search field, the table is dynamically filtered, showing only the students whose names match the search query.</p>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ![Logo](/SMS_validations.png)
+ ![Logo](/SMS_confirmation.png)
+ ![Logo](/SMS_search.png)
+ ![Logo](/SMS_dashboard.png)
+ ![Logo](/SMS_toast_messages.png)
